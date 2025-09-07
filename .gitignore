@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & artifacts
+data/
+*.csv
+*.parquet
+*.feather
+checkpoints/
+runs/
+logs/
+
+# PDFs & binaries
+*.pdf
+
+# Secrets
+.env
+.env.*
+secrets.*
